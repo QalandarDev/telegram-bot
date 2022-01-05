@@ -1,0 +1,26 @@
+{
+  "name": "h-soft/telegram-bot",
+  "description": "bot telegram",
+  "type": "yii2-extension",
+  "keywords": ["yii2","extension"],
+  "license": "LGPL-3.0+",
+  "authors": [
+    {
+      "name": "QalandarDev",
+      "email": "uzwebdevolopersn2@gmail.com"
+    }
+  ],
+  "require": {
+    "yiisoft/yii2": "*",
+    "guzzlehttp/guzzle": "*"
+  }
+  ,
+  "require-dev": {
+    "roave/security-advisories": "dev-latest"
+  },
+  "autoload": {
+    "psr-4": {
+      "H_Soft\\telegram\\": ""
+    }
+  }
+}
