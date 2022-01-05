@@ -62,7 +62,7 @@ first add to config.php
 Once the extension is installed, simply use it in your code by  :
 ```php
 <?php 
-  Yii::$app->telegram
+  Yii::$app->bot
       ->SendMessage($chat_id,'TEST')(); 
 ?>
 ```
@@ -70,7 +70,7 @@ Once the extension is installed, simply use it in your code by  :
 send photo by :
 ```php
 <?php 
-  Yii::$app->telegram
+  Yii::$app->bot
       ->sendPhoto($chat_id,Yii::$app->getBaseUrl().'/uploads/test.jpg')
       ->caption('this is a caption')
       ->parse_mode('html')
